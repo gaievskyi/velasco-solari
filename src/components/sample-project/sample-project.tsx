@@ -23,12 +23,12 @@ export const SampleProject = () => {
           <p>Neon Galactic Chronicles</p>
         </div>
         <div className="project-duration">
-          <p>00' 43'' / 03' 17''</p>
+          <p>00&apos; 43&apos;&apos; / 03&apos; 17&apos;&apos;</p>
         </div>
         <div className="project-description">
           <p>
-            Music video for Eva Sola's new single called Puñal. Tells the story
-            of a broken relationship that falls into the abyss through an
+            Music video for Eva Sola&apos;s new single called Puñal. Tells the
+            story of a broken relationship that falls into the abyss through an
             intimate and violent choreography.
           </p>
         </div>

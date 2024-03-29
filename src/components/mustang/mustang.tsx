@@ -46,7 +46,7 @@ export const Mustang = () => (
             </p>
             <br />
             <p>
-              Velasco Solari, a name that I came to embrace, became synonymous
+              Vincenzo Solari, a name that I came to embrace, became synonymous
               with my journey. My experiences at EFTI opened a myriad of
               opportunities where I could blend my early love for cartography
               with my newfound passion for cinema. Every script I wrote, every

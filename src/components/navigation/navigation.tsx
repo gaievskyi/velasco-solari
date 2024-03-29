@@ -6,7 +6,7 @@ export const Navigation = () => (
   <div className="navigation">
     <div className="logo">
       <div>
-        <Link to="/">velasco solari</Link>
+        <Link to="/">Vincenzo solari</Link>
       </div>
     </div>
     <div className="links">
