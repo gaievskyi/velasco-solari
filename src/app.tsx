@@ -6,7 +6,6 @@ import { Mustang } from "./components/mustang/mustang"
 import { Overview } from "./components/overview/overview"
 import { SampleProject } from "./components/sample-project/sample-project"
 
-import "./app.css"
 import { Navigation } from "./components/navigation/navigation"
 import { Work } from "./components/work/work"
 
