@@ -1,19 +1,18 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player"
+import { Link } from "react-router-dom"
 
-import ProjectImage1 from "../../assets/project-images/01.jpg";
-import ProjectImage2 from "../../assets/project-images/02.jpg";
-import ProjectImage3 from "../../assets/project-images/03.jpg";
-import ProjectImage4 from "../../assets/project-images/04.jpg";
-import ProjectImage5 from "../../assets/project-images/05.jpg";
-import ProjectImage6 from "../../assets/project-images/06.jpg";
-import ProjectImage7 from "../../assets/project-images/07.jpg";
-import ProjectImage8 from "../../assets/project-images/08.jpg";
+import projectImageOne from "../../assets/project-images/01.jpg"
+import projectImageTwo from "../../assets/project-images/02.jpg"
+import projectImageThree from "../../assets/project-images/03.jpg"
+import projectImageFour from "../../assets/project-images/04.jpg"
+import projectImageFive from "../../assets/project-images/05.jpg"
+import projectImageSix from "../../assets/project-images/06.jpg"
+import projectImageSeven from "../../assets/project-images/07.jpg"
+import projectImageEight from "../../assets/project-images/08.jpg"
 
-import "./SampleProject.css";
+import "./sample-project.css"
 
-const SampleProject = () => {
+export const SampleProject = () => {
   return (
     <div className="sameple-project-page">
       <div className="project-info">
@@ -63,36 +62,36 @@ const SampleProject = () => {
       <div className="sample-images">
         <div className="s-row">
           <div className="img">
-            <img src={ProjectImage7} alt="" />
+            <img src={projectImageSeven} alt="" />
           </div>
           <div className="img">
-            <img src={ProjectImage8} alt="" />
-          </div>
-        </div>
-        <div className="s-row">
-          <div className="img">
-            <img src={ProjectImage1} alt="" />
+            <img src={projectImageEight} alt="" />
           </div>
         </div>
         <div className="s-row">
           <div className="img">
-            <img src={ProjectImage2} alt="" />
-          </div>
-          <div className="img">
-            <img src={ProjectImage3} alt="" />
+            <img src={projectImageOne} alt="" />
           </div>
         </div>
         <div className="s-row">
           <div className="img">
-            <img src={ProjectImage4} alt="" />
+            <img src={projectImageTwo} alt="" />
+          </div>
+          <div className="img">
+            <img src={projectImageThree} alt="" />
           </div>
         </div>
         <div className="s-row">
           <div className="img">
-            <img src={ProjectImage5} alt="" />
+            <img src={projectImageFour} alt="" />
+          </div>
+        </div>
+        <div className="s-row">
+          <div className="img">
+            <img src={projectImageFive} alt="" />
           </div>
           <div className="img">
-            <img src={ProjectImage6} alt="" />
+            <img src={projectImageSix} alt="" />
           </div>
         </div>
       </div>
@@ -106,7 +105,5 @@ const SampleProject = () => {
         </div>
       </div>
     </div>
-  );
-};
-
-export default SampleProject;
+  )
+}

@@ -1,4 +1,4 @@
-.nav {
+.navigation {
   position: fixed;
   top: 0;
   width: 100%;
@@ -8,7 +8,7 @@
   z-index: 100000;
 }
 
-.nav > div {
+.navigation > div {
   flex: 1;
 }
 

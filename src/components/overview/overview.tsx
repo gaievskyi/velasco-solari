@@ -1,61 +1,61 @@
-import React, { useState } from "react";
-import Footer from "../footer/Footer";
+import { useState } from "react"
+import { Footer } from "../footer/footer"
 
-import "./Overview.css";
+import "./overview.css"
 
-const Overview = () => {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+const projects = [
+  {
+    title: "Azure Serenity",
+    category: "Commercial",
+    "running time": `53"`,
+    year: 2021,
+  },
+  {
+    title: "Crimson Symphony Memoirs",
+    category: "Music",
+    "running time": `03' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17"`,
+    year: 2017,
+  },
+  {
+    title: "Velvet Dreamscape",
+    category: "Narrative",
+    "running time": `02' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42"`,
+    year: 2020,
+  },
+  {
+    title: "Azure Serenity",
+    category: "Commercial",
+    "running time": `53"`,
+    year: 2021,
+  },
+  {
+    title: "Crimson Symphony Memoirs",
+    category: "Music",
+    "running time": `03' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17"`,
+    year: 2017,
+  },
+  {
+    title: "Velvet Dreamscape",
+    category: "Narrative",
+    "running time": `02' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42"`,
+    year: 2020,
+  },
+  {
+    title: "Crimson Symphony Memoirs",
+    category: "Music",
+    "running time": `03' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17"`,
+    year: 2017,
+  },
+  {
+    title: "Velvet Dreamscape",
+    category: "Narrative",
+    "running time": `02' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42"`,
+    year: 2020,
+  },
+]
 
-  const projects = [
-    {
-      title: "Azure Serenity",
-      category: "Commercial",
-      "running time": `53"`,
-      year: 2021,
-    },
-    {
-      title: "Crimson Symphony Memoirs",
-      category: "Music",
-      "running time": `03' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17"`,
-      year: 2017,
-    },
-    {
-      title: "Velvet Dreamscape",
-      category: "Narrative",
-      "running time": `02' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42"`,
-      year: 2020,
-    },
-    {
-      title: "Azure Serenity",
-      category: "Commercial",
-      "running time": `53"`,
-      year: 2021,
-    },
-    {
-      title: "Crimson Symphony Memoirs",
-      category: "Music",
-      "running time": `03' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17"`,
-      year: 2017,
-    },
-    {
-      title: "Velvet Dreamscape",
-      category: "Narrative",
-      "running time": `02' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42"`,
-      year: 2020,
-    },
-    {
-      title: "Crimson Symphony Memoirs",
-      category: "Music",
-      "running time": `03' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17"`,
-      year: 2017,
-    },
-    {
-      title: "Velvet Dreamscape",
-      category: "Narrative",
-      "running time": `02' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42"`,
-      year: 2020,
-    },
-  ];
+export const Overview = () => {
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
   return (
     <div className="overview-page">
@@ -113,7 +113,5 @@ const Overview = () => {
         <Footer />
       </div>
     </div>
-  );
-};
-
-export default Overview;
+  )
+}
